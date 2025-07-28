@@ -28,3 +28,25 @@
 - Interprétabilité avec SHAP pour comprendre les facteurs influençant les montants élevés
 
 ---
+
+## 🔍 Résultats clés
+
+- Le montant des sinistres est influencé par :
+  - le **type de garantie**,
+  - l’**ancienneté du conducteur**,
+  - la **zone géographique**,
+  - et la **valeur du véhicule**.
+- Le modèle XGBoost donne les meilleures performances (R² = XX%, RMSE = XX €)
+- Les explications SHAP mettent en évidence les situations à risque de montants élevés
+
+---
+
+## 📊 Technologies utilisées
+
+- **Python** : pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost, shap
+- **IDE** : Jupyter Notebook
+- **Modèles** : Régression linéaire, arbres de décision, boosting
+- **Évaluation** : RMSE, MAE, R²
+- **Interprétation** : SHAP values
+
+---
